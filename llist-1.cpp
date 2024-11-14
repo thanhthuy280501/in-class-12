@@ -107,8 +107,8 @@ void LList<T>::search ( T & key){
 }
 template <class T>
 
-void LList<T>::sortedsearch ( constT & key){
-  T it;
-  for (setStart (); getValue (it) && it != key ; next() ) {}
+bool LList<T>::sortedsearch ( constT & key){
+  sortedsearch(item);
+  return.insert (item);
 }
 
