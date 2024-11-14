@@ -105,3 +105,10 @@ void LList<T>::search ( T & key){
   T it;
   for (setStart (); getValue (it) && it != key ; next() ) {}
 }
+template <class T>
+
+void LList<T>::sortedsearch ( constT & key){
+  T it;
+  for (setStart (); getValue (it) && it != key ; next() ) {}
+}
+
