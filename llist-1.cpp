@@ -99,6 +99,7 @@ void LList::print() const {
     temp = temp->next;
   }
   cout << ">\n";
+template <class T>
 
 void LList<T>::search ( T & key){
   T it;
