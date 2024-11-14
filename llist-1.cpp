@@ -99,4 +99,8 @@ void LList::print() const {
     temp = temp->next;
   }
   cout << ">\n";
+
+void LList<T>::search ( T & key){
+  T it;
+  for (setStart (); getValue (it) && it != key ; next() ) {}
 }
