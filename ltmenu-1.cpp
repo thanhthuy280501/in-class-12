@@ -96,6 +96,12 @@ int main() {
       cout << "L1.print(); ----->\t\t";
       L1.print();
     }
+	  else if ( choice == 'search'){
+		  cin >> tmp;
+		  L1.search (tmp); // doesnt bother with boolean return value
+		  sucess = L1.getValue(tmp);
+		  if (sucess)
+			  cout<< "Found" << tmp << 
     cout << endl;
 
 //*******************************************************************
